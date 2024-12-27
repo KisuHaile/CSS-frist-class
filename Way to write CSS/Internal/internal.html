@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techtonic Tribe - Past Events & Classes</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: hsl(0, 0%, 20%);
+            background-color: hsl(0, 0%, 98%);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: blueviolet; 
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ffffff;
+            color: #6a11cb;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #2575fc;
+            color: white;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #6a11cb;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Event and Class Cards */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            overflow: hidden;
+            text-align: left;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            color: #2575fc;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background: #203a43;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Techtonic Tribe - Past Events & Classes</h1>
+        <p>Empowering the Tech Community with Knowledge, Innovation, and Networking</p>
+        <a href="#events" class="btn">Explore Past Events</a>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Our Past Events</h2>
+        <p>Techtonic Tribe has been at the forefront of organizing engaging tech events, classes, and workshops for tech enthusiasts. From coding challenges to insightful industry talks, our events are designed to push the boundaries of innovation and collaboration.</p>
+    </section>
+
+    <!-- Past Events Section -->
+    <section id="events">
+        <h2>Past Events & Classes</h2>
+        <div class="cards">
+            <!-- Event 1 -->
+            <div class="card">
+                <img src="../Images/all nighters.jpg" alt="CodeFest 2024">
+                <div class="card-content">
+                    <h3>CodeFest 2024</h3>
+                    <p>A 48-hour hackathon that brought together top tech enthusiasts to solve real-world challenges with cutting-edge solutions.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/280x200" alt="Tech Talks">
+                <div class="card-content">
+                    <h3>Tech Talks</h3>
+                    <p>Monthly speaker sessions featuring industry leaders sharing their expertise on the latest trends in technology.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="card">
+                <img src="../Images/Coding.jpg" alt="Coding Bootcamp">
+                <div class="card-content">
+                    <h3>Coding Bootcamp</h3>
+                    <p>Intensive workshops offering hands-on experience with modern programming languages, development tools, and frameworks.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Techtonic Tribe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+ /* General Reset */
+ body {
+    margin: 0; /* Element selector (body) - Remove default margin */
+    font-family: 'Arial', sans-serif; /* Element selector (body) - Set font */
+    line-height: 1.6; /* Element selector (body) - Increase line height */
+    color: #333; /* Element selector (body) - Set text color */
+    background-color: #f4f4f9; /* Element selector (body) - Set background color */
+    padding: 0; /* Element selector (body) - Remove padding */
+}
+
+/* Hero Section */
+.hero { 
+    /* Class selector (.hero) - Styles for the hero section */
+    background: linear-gradient(to right, #2575fc, #6a11cb); /* Background gradient */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 60px 20px; /* Padding inside the section */
+}
+
+.hero h1 {
+    /* Class selector for h1 inside .hero */
+    font-size: 3rem; /* Font size */
+    margin-bottom: 15px; /* Margin below the heading */
+}
+
+.hero p {
+    /* Class selector for p inside .hero */
+    font-size: 1.2rem; /* Font size */
+    margin-bottom: 30px; /* Margin below the paragraph */
+}
+
+/* Member Grid Section */
+section {
+    /* Element selector (section) - Styles for general sections */
+    padding: 40px 20px; /* Padding around section */
+    text-align: center; /* Center text in section */
+}
+
+h2 {
+    /* Element selector (h2) - Heading styles */
+    color: #6a11cb; /* Heading color */
+    font-size: 2.5rem; /* Font size */
+    margin-bottom: 20px; /* Margin below heading */
+}
+
+/* Member Cards */
+.members {
+    /* Class selector (.members) - Container for the member cards */
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid column layout */
+    gap: 30px; /* Gap between cards */
+    justify-items: center; /* Center items horizontally */
+}
+
+.member-card {
+    /* Class selector (.member-card) - Styles for individual member cards */
+    background: white; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 250px; /* Fixed width */
+    overflow: hidden; /* Hide any content that overflows */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition on hover */
+}
+
+.member-card:hover {
+    /* Pseudo-class selector (:hover) - Hover effect for .member-card */
+    transform: translateY(-10px); /* Lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.member-card img {
+    /* Class selector (.member-card img) - Styles for member images */
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.member-card .member-info {
+    /* Class selector (.member-info) - Styles for the card text container */
+    padding: 20px; /* Padding inside card */
+}
+
+.member-card h3 {
+    /* Class selector for h3 inside .member-info */
+    color: #2575fc; /* Text color for name */
+    font-size: 1.8rem; /* Font size */
+    margin-bottom: 10px; /* Margin below the name */
+}
+
+.member-card p {
+    /* Class selector for p inside .member-info */
+    color: #555; /* Text color for role */
+    font-size: 1.1rem; /* Font size */
+}
+
+/* Footer */
+footer {
+    /* Element selector (footer) - Footer section styles */
+    background: #203a43; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center footer text */
+    padding: 20px; /* Padding around the footer */
+}
